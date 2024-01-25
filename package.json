@@ -1,0 +1,30 @@
+{
+  "name": "placesapp-be",
+  "version": "1.0.0",
+  "description": "Places Application where the users can share a place's image, description and its location coordinates with the other users of the app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubscientist/PlacesApp-BE.git"
+  },
+  "keywords": [
+    "places"
+  ],
+  "author": "Sathish Gnanaprakasam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubscientist/PlacesApp-BE/issues"
+  },
+  "homepage": "https://github.com/githubscientist/PlacesApp-BE#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
