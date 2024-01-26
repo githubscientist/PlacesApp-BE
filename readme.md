@@ -1,0 +1,57 @@
+FSD Demo Session - I
+
+- What is exactly FSD?
+- What are the components of FSD?
+  - Frontend
+  - Backend (Server + API + Database)
+- Different Types of Technology Stacks
+- MERN Stack
+  - FrontEnd: ReactJS
+  - Backend: NodeJS + ExpressJS (Framework) + MongoDB
+- Setting up the Development Environment
+  - NodeJS & NPM
+  - VSCode
+  - Git & GitHub account
+  - MongoDB Compass
+  - Postman
+  - MongoDB Atlas (Cloud) account
+- Idea to develop as a Full Stack Application
+  - Create an app that lets the users to share a place (image + title + description + location) with other users. (Like Google Places, FourSquare, etc.)
+- Sketch of the UI
+  - Home Page (List of Users)
+  - Login Page
+  - Signup Page
+  - New Place Page
+  - Update Place Page
+  - User Places Page
+- Models (Database)
+  - User
+    - id
+    - name
+    - email
+    - password
+    - image
+    - places
+  - Place
+    - id
+    - title
+    - description
+    - image
+    - address
+    - location
+    - creator
+- API Endpoints
+  - GET /api/users
+  - POST /api/users/signup
+  - POST /api/users/login
+  - GET /api/places/user/:uid
+  - GET /api/places/:pid
+  - POST /api/places
+  - PATCH /api/places/:pid
+  - DELETE /api/places/:pid
+- Setting up the FrontEnd - Skeleton project
+  - Running and Testing the FrontEnd
+- Setting up the Backend - Skeleton project
+  - Running and Testing the Backend
+  - Postman (API Testing)
+  - MongoDB Compass (Database Testing)
